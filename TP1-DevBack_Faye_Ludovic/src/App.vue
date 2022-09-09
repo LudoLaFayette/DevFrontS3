@@ -14,7 +14,7 @@
     </ul>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="./pages/simple.vue">
+        <router-link class="text-red-600 underline" to="/src/pages/simple.vue">
           lien vers
           <code class="font-mono">/src/pages/simple.vue</code>
         </router-link>
