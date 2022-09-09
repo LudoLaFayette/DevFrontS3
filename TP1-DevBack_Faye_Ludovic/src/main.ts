@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import routesFromPages from "~pages";
+import simple from "./pages/simple.vue"
 
 import "./index.css";
 
@@ -10,7 +11,12 @@ const router = createRouter({
   routes: [
     // possible d'ajouter ses propres routes
     // en plus de celles faites automatiquement
-    ...routesFromPages,
+    
+    {
+      path: '/simple',
+      name: 'simple',
+      component: simple
+    },
   ],
 });
 

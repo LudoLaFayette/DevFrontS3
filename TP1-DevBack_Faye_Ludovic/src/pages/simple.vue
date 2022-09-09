@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import card from "../components/card.vue";
+import CardMaison from "../components/card.vue";
 
 const Card = {
   image: "../../assets/images/maison1.png",
@@ -17,7 +17,7 @@ console.log(Card);
 
 <template>
   <div>
-    <card
+    <CardMaison
       :image="Card.image"
       :nom="Card.nom"
       :price="Card.price"

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Bathroom from "@/components/Heart.vue";
 import Heart from "@/components/Bathroom.vue";
 
@@ -8,7 +8,7 @@ export default {
   defineProps: {
     nom: String,
     prix: Number,
-    favori: Boolean, 
+    favori: Boolean,
     image: String, // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
     nbrSDB: Number,
   },

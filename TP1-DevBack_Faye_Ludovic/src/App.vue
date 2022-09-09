@@ -6,7 +6,7 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="./pages/index.vue">
+        <router-link class="text-red-600 underline" to="/">
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
         </router-link>
@@ -14,7 +14,7 @@
     </ul>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/src/pages/simple.vue">
+        <router-link class="text-red-600 underline" to="simple">
           lien vers
           <code class="font-mono">/src/pages/simple.vue</code>
         </router-link>
@@ -27,5 +27,4 @@
 </template>
 
 <script setup lang="ts">
-
 </script>
