@@ -6,9 +6,17 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/">
+        <router-link class="text-red-600 underline" to="./pages/index.vue">
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
+        </router-link>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <router-link class="text-red-600 underline" to="./pages/simple.vue">
+          lien vers
+          <code class="font-mono">/src/pages/simple.vue</code>
         </router-link>
       </li>
     </ul>
@@ -19,5 +27,5 @@
 </template>
 
 <script setup lang="ts">
-import { Bars3Icon } from '@heroicons/vue/20/solid'
+
 </script>
